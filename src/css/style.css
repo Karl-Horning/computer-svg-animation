@@ -12,11 +12,13 @@ body {
 }
 
 #computer-svg {
+    height: auto;
     margin-bottom: 20px; /* Add margin at the bottom to create space between SVG and button */
     max-width: 100%;
+    width: 100%;
 }
 
-button.play {
+#play {
     background-color: #ecba16; /* Main color */
     border: none; /* No border */
     border-radius: 8px; /* Rounded corners */
@@ -24,7 +26,6 @@ button.play {
     cursor: pointer; /* Cursor on hover */
     padding: 10px 20px; /* Adjust padding as needed */
     transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-    
 
     /* Text outline */
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
@@ -39,5 +40,13 @@ button.play {
     &:active {
         background-color: #b7810d; /* Even darker color when clicked */
         box-shadow: none; /* Remove box shadow when clicked */
+    }
+
+    /* Disabled state */
+    &:disabled {
+        background-color: #ecba16; /* Main color */
+        box-shadow: none; /* Remove box shadow when disabled */
+        cursor: not-allowed; /* Change cursor to indicate the button is not clickable */
+        opacity: 0.5; /* Lower opacity to visually indicate the disabled state */
     }
 }
