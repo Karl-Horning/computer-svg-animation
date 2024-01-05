@@ -23,7 +23,7 @@ tl.from("#stand", 0.5, {
     })
     .from("#yellowBox", 0.5, { scale: 0 })
     .staggerFrom(
-        "#layer_1 > g:nth-child(1) > g path",
+        "#computer-svg > g:nth-child(1) > g path",
         0.2,
         { scaleX: 0 },
         -0.1
