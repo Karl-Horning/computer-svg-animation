@@ -4,19 +4,21 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
-- [Author](#author)
+- [Computer SVG Animation](#computer-svg-animation)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Demo](#demo)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Acknowledgments](#acknowledgments)
+  - [License](#license)
+  - [Author](#author)
 
 ## Overview
 
-Welcome to the "Computer SVG Animation" project! This repository showcases an engaging SVG animation of a computer, brought to life through GSAP (GreenSock Animation Platform). Experience the fusion of creativity and technology with this visually captivating representation.
+Interactive computer animation using GSAP and an SVG. Features a button that triggers a sequence animating the computer's assembly, complete with scaling, bounce, and staggered effects. Button states include hover, active, and disabled.
 
 ## Demo
 
@@ -57,6 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 **Karl Horning:**
+
 - [GitHub](https://github.com/Karl-Horning/)
 - [LinkedIn](https://www.linkedin.com/in/karl-horning/)
 - [CodePen](https://codepen.io/karlhorning)
